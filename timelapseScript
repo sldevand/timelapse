@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo killall mjpg_streamer 
+sleep 1
+/home/pi/timelapse/timelapse 2 40 /var/www/activCam/timelapse/	
+
+
+
